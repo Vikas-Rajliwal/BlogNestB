@@ -27,7 +27,7 @@ app.use(express.json());
 
 // acceses to frontend 
 app.use(cors({
-  origin: ['http://localhost:5173'], // 👈 replace with the site you want to allow
+  origin: ['https://blog-nest-f.vercel.app'], // 👈 replace with the site you want to allow
   credentials: true,
 }));
 
